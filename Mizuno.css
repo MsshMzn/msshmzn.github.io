@@ -1,0 +1,46 @@
+/*
+officialページ全体に使うスタイルシートファイル
+*/
+body {
+background-image:url(paper.gif);
+}
+
+P.console {
+	  background-color: #ccccff;
+	  padding: 0em 1em 0em 2em;
+	  margin: 1em 5em 1em 2em;
+	  border: solid 1px #ddd0c0;
+	  }	  
+
+P.src {
+      background-color: #fffef0;	
+      padding: 0.8em 1em 0.8em 2em;
+      margin: 1em 5em 1em 2em;
+      border: solid 1px #ddd0c0;
+      }
+a {
+  text-decoration : none ;
+  }
+
+rem {
+    font-weight : bold ;
+    color : red ;
+    }
+
+em {
+   font-weight : bold ;
+   }
+
+
+/*
+パンくずリスト
+*/
+
+.topic-path {
+  list-style-type: none;
+}
+.topic-path li {
+  display: inline;
+}
+
+
